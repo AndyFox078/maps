@@ -7,3 +7,20 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
+
+.left-column{
+	width: 400px;
+	height: 100vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	background: white;
+}
+
+.left-column .content{
+	max-width: 100%;
+}

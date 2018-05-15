@@ -6,7 +6,7 @@ var App = function(){
 
   this.init = function(){
     self.map = initMap();
-    self.corts = new Corts(self.map);
+    self.corts = new Corts(self.map, self);
     self.drawCort = new DrawCort(self.map, self.corts);
   };
 
